@@ -1,0 +1,11 @@
+{
+  "name": "datastructures_js",
+  "version": "1.0.0",
+  "description": "Solutions to exercises in Pat Morin's Open Data Structures textbook.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nick Woods",
+  "license": "MIT"
+}
