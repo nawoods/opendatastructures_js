@@ -4,8 +4,19 @@
   "description": "Solutions to exercises in Pat Morin's Open Data Structures textbook.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha bin/**/*.spec.js"
   },
   "author": "Nick Woods",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@types/chai": "^4.2.11",
+    "@types/mocha": "^7.0.2",
+    "@types/node": "^13.13.5",
+    "mocha": "^7.1.2",
+    "ts-node": "^8.10.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "typescript": "^3.9.3"
+  }
 }
